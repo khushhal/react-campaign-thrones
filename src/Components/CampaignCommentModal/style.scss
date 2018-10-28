@@ -1,0 +1,25 @@
+#campaign-comment-modal {
+    #modal-body {
+        textarea {
+            width: 90%;
+            height: 2.5rem;
+            padding: 0.6rem;
+            border-radius: 0.2rem;
+            background: transparent;
+            box-shadow: none;
+            border: 1px solid #cccccc;
+            resize: none;
+            &:focus {
+                outline: none;
+            }
+        }
+        .btn {
+            margin-top: 1.2rem;
+            width: 6rem;
+            margin-right: 1rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

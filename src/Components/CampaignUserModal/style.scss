@@ -1,0 +1,12 @@
+#campaign-user-modal {
+    #modal-body {
+        .btn {
+            margin-top: 1.2rem;
+            width: 6rem;
+            margin-right: 1rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

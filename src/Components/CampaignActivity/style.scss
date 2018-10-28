@@ -1,0 +1,69 @@
+#campaign-activity-wrapper {
+    background-color: #F8FBFF;
+    width: 25%;
+    display: inline-flex;
+}
+
+#campaign-activity-header {
+    width: 100%;
+    display: inline-flex;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    i {
+        color: #9E9E9E;
+    }
+}
+
+#campaign-activity-header-title {
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+    display: inline-block;
+    .title {
+        margin: 0;
+        font-size: 0.8rem;
+        &:first-child {
+            padding-bottom: 0.4rem;
+            font-weight: 600;
+            color: #9E9E9E;
+        }
+        &:last-child {
+            line-height: 1.3;
+            font-weight: 600;
+        }
+    }
+}
+
+#campaign-activity-body {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem 1.5rem 2.5rem;
+    width: 100%;
+    list-style-type: none;
+    max-height: 20rem;
+    overflow-y: auto;
+    display: table-caption;
+    li {
+        display: flex;
+        margin-bottom: 1.5rem;
+        .action-icon-block {
+            i {
+                font-size: 1.3rem;
+            }
+        }
+        .action-content {
+            padding-left: 1rem;
+            .action-text {
+                margin: 0;
+                font-size: 0.7rem;
+            }
+            .action-user {
+                margin: 0;
+                color: #4794DD;
+                font-weight: 600;
+                padding: 0.1rem 0;
+            }
+            .action-comment {
+                margin: 0.2rem 0 0 0;
+                line-height: 1.4;
+            }
+        }
+    }
+}

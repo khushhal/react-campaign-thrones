@@ -1,0 +1,111 @@
+body {
+    background-color: #E7E8EC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+p, span, button, div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-size: 0.9rem;
+    margin-left: 0.6rem;
+    color: #444444;
+    line-height: 1; 
+}
+
+.btn {
+    background-color: #4794DD;
+    line-height: 1;
+    box-shadow: none;
+    border: 0;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    &.secondary {
+        background-color: #cccccc;
+        &:hover {
+            background-color: #989797;
+        }
+    }
+    &:focus {
+        box-shadow: none;
+        border: 0;
+        outline: none;
+    }
+    &:hover {
+        background-color: #165ea2;
+    }
+}
+
+.modal {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    .modal-overlay {
+        background: rgba(0,0,0, 0.3);
+        width: 100%;
+        height: 100%;
+    }
+    .modal-wrapper {
+        z-index: 9;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 25rem;
+        border-radius: 0.1rem;
+        top: 10%;
+    }
+    .modal-header {
+        margin: auto;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    .modal-body {
+        padding: 1rem;
+    }
+}
+
+.form-element {
+    padding-right: 2rem;
+    input {
+        width: 90%;
+        height: 1.5rem;
+        padding: 0.1rem 0.4rem;
+        border-radius: 0.2rem;
+        background: transparent;
+        box-shadow: none;
+        border: 1px solid #cccccc;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+#app-body-wrapper i {
+    &.pause-icon {
+        color: #CCCC00;
+    }
+    &.play-icon,
+    &.add-icon {
+        color: #006400;
+    }
+    &.comment-icon,
+    &.edit-icon {
+        color: #4794DD;
+    }
+    &.delete-icon {
+        color: #ff0000;
+    }
+}

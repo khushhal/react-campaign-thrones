@@ -1,0 +1,39 @@
+#app-container {
+    max-width: 64rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+#title-bar {
+    display: flex;
+    background-color: #F8FBFF;
+    padding: 0.6rem 1.2rem;
+    align-items: center;
+    border-radius: 0.3rem 0.3rem 0 0;
+    i {
+        line-height: 1;
+        color: #4794DD;
+    }
+}
+
+#header {
+    display: flex;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+#sort-icon {
+    color: #444444;
+}
+
+#header button {
+    margin-left: 1rem;
+}
+
+#app-body-wrapper {
+    width: 100%;
+    display: flex;
+    min-height: 10rem;
+}
